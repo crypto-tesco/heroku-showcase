@@ -45,7 +45,7 @@ function App() {
           This is an example app to showcase the awesomeness of Heroku Logplex.
         </div>
         <div className={"description"}>
-          Hit the button to count and see the magic of logplex unfold!
+          Hit the button to count and see the magic of logplex unfold! Take a look at primes in your logs.
         </div>
         <div className={"buttonContainer"}>
         <button className={"button"} onClick={() => setClicks((prev: number) => prev+1)}>
